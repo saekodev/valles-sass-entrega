@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saekodev/valles-sass-entrega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saekodev/valles-sass-entrega/issues"
+  },
+  "homepage": "https://github.com/saekodev/valles-sass-entrega#readme",
   "description": ""
 }
