@@ -1,5 +1,68 @@
-header a img {
-  color: black; }
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Press+Start+2P&family=Roboto&family=Silkscreen&display=swap");
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Silkscreen', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-header nav {
-  color: gray; }
+header {
+  background: linear-gradient(130deg, #38405fff 0%, #0e131fff 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header a img {
+    width: 180px;
+    padding: 20px; }
+    header a img:hover {
+      transform: scale(1.1, 1.1);
+      transition: 1s; }
+  header nav {
+    font-family: "Press Start 2P";
+    font-size: 12px;
+    color: #6b717eff;
+    list-style: none;
+    display: flex; }
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #a6d9f7; }
+  body .tituloUno {
+    font-family: "Press Start 2P";
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px; }
+    body .tituloUno:hover {
+      transform: skew(-12deg); }
+  body .tituloDos {
+    font-family: "Silkscreen", cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px; }
+    body .tituloDos:hover {
+      transform: skew(-12deg); }
+  body .tituloTres {
+    font-family: "Silkscreen", cursive;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px; }
+  body .banner {
+    max-height: 180px;
+    overflow: hidden; }
+
+a {
+  text-decoration: none; }
+
+footer ul li {
+  font-family: "Press Start 2P"; }
