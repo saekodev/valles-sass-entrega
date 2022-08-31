@@ -4,6 +4,13 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Press Start 2P', cursive;
 font-family: 'Silkscreen', cursive; */
 
+/* Paleta de Colores
+--rich-black-fogra-29: #0e131fff;
+--middle-blue-green: #84dccfff;
+--uranian-blue: #a6d9f7ff;
+--slate-gray: #6b717eff;
+--independence: #38405fff; */
+
 * {
   margin: 0;
   padding: 0;
@@ -28,9 +35,22 @@ header {
   nav {
     font-family: "Press Start 2P";
     font-size: 12px;
-    color: #6b717eff;
+    border: solid 2px #17141a;
+    background: linear-gradient(
+      130deg,
+      #38405fff 0%,
+      #0e131fff 100%
+    ) !important;
     list-style: none;
     display: flex;
+    a {
+      list-style: none;
+      &:hover {
+        transform: scale(1.05);
+        color: #a6d9f7ff !important;
+        text-shadow: 0 0 10px #81b5d3;
+      }
+    }
   }
 }
 
@@ -80,10 +100,37 @@ a {
   text-decoration: none;
 }
 
+.imgMesa {
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+
 footer {
+  background-color: #0e131fff;
   ul {
+    display: flex;
+    list-style: none;
+    width: 180px;
+    margin: 0 auto;
+    justify-content: center;
     li {
       font-family: "Press Start 2P";
+      font-size: 1rem;
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  p {
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #84dccf;
+    text-align: center;
+    justify-content: center;
+    &:hover {
+      color: #a6d9f7ff !important;
+      text-shadow: 0 0 10px #81b5d3;
     }
   }
 }
