@@ -11,6 +11,15 @@ font-family: 'Silkscreen', cursive; */
 --slate-gray: #6b717eff;
 --independence: #38405fff; */
 
+@import url(./section/_index.scss);
+@import url(./section/_tcg.scss);
+@import url(./section/_juegosDeMesa.scss);
+@import url(./section/_accesorios.scss);
+@import url(./section/_eventos.scss);
+@import url(./section/_galeria.scss);
+@import url(./section/_contacto.scss);
+@import url(./section/_mediaqueries.scss);
+
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +56,7 @@ header {
       list-style: none;
       &:hover {
         transform: scale(1.05);
+        transition: 0.3s;
         color: #a6d9f7ff !important;
         text-shadow: 0 0 10px #81b5d3;
       }
@@ -59,6 +69,13 @@ body {
   font-size: 20px;
   font-weight: bolder;
   background-color: #a6d9f7;
+  .banner {
+    max-height: 180px;
+    overflow: hidden;
+    img {
+      max-width: 100vw;
+    }
+  }
   .tituloUno {
     font-family: "Press Start 2P";
     text-align: center;
@@ -96,15 +113,20 @@ body {
   }
 }
 
+main {
+  min-height: 90vh;
+  background-image: linear-gradient(to right, #4facfe 20%, #00f2fe 80%);
+}
+
 a {
   text-decoration: none;
 }
 
 .imgMesa {
-    max-width: 300px;
-    margin: 10px;
-    padding: 10px;
-  }
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
 
 footer {
   background-color: #0e131fff;
@@ -119,6 +141,13 @@ footer {
       font-size: 1rem;
       margin: 10px;
       padding: 10px;
+      a {
+        &:hover {
+            color: #38405fff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+      }
     }
   }
   p {

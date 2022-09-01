@@ -1,20 +1,12 @@
 .mainJuegosDeMesa {
-    .banner {
-
+  section {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+    p {
+      margin: 10px;
+      padding: 10px;
     }
-    .tituloUno {
-
-    }
-    section {
-        .h2 {
-
-        }
-        .imgMesa {
-
-        }
-        p {
-            a {
-                
-            }
-        }
-    }
+  }
+}
