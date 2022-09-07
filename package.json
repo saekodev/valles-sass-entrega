@@ -6,7 +6,6 @@
   "name": "sass-intento",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -22,5 +21,6 @@
     "url": "https://github.com/saekodev/valles-sass-entrega/issues"
   },
   "homepage": "https://github.com/saekodev/valles-sass-entrega#readme",
+  "devDependencies": {},
   "description": ""
 }
