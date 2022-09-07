@@ -11,14 +11,14 @@ font-family: 'Silkscreen', cursive; */
 --slate-gray: #6b717eff;
 --independence: #38405fff; */
 
-@import url(./section/_index.scss);
-@import url(./section/_tcg.scss);
-@import url(./section/_juegosDeMesa.scss);
-@import url(./section/_accesorios.scss);
-@import url(./section/_eventos.scss);
-@import url(./section/_galeria.scss);
-@import url(./section/_contacto.scss);
-@import url(./section/_mediaqueries.scss);
+@import './section/_index.scss';
+@import './section/_tcg.scss';
+@import './section/_juegosDeMesa.scss';
+@import './section/_accesorios.scss';
+@import './section/_eventos.scss';
+@import './section/_galeria.scss';
+@import './section/_contacto.scss';
+@import './section/_mediaqueries.scss';
 
 * {
   margin: 0;
@@ -26,7 +26,7 @@ font-family: 'Silkscreen', cursive; */
   box-sizing: border-box;
 }
 
-header {
+.header {
   background: linear-gradient(130deg, #38405fff 0%, #0e131fff 100%);
   display: flex;
   justify-content: space-between;
